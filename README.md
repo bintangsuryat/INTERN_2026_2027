@@ -47,7 +47,7 @@ Pembagian peran:
 | Debug USB (Serial0) | 0, 1 | Hanya untuk debug ke PC |
 | LCD I2C 20x4 | SDA = 20, SCL = 21 | Alamat 0x27 atau 0x3F (cek dengan I2C scanner) |
 | Motor kiri BTS7960 | RPWM = 5, LPWM = 6, R\_EN + L\_EN = vcc | RPWM maju, LPWM mundur; salah satu harus 0 |
-| Motor kanan BTS7960 | RPWM = 7, LPWM = 8, R\_EN + L\_EN = vcc | Sama seperti kiri |
+| Motor kanan BTS7960 | RPWM = 8, LPWM = 9, R\_EN + L\_EN = vcc | Sama seperti kiri |
 | Servo arm | 11 | Library Servo di Mega memakai Timer5, hindari PWM di pin 44-46 |
 | Ultrasonik depan | TRIG = 30, ECHO = 31 |  |
 | Ultrasonik kiri | TRIG = 32, ECHO = 33 |  |
