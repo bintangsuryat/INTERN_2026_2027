@@ -52,7 +52,7 @@ Pembagian peran:
 | Ultrasonik depan | TRIG = 30, ECHO = 31 |  |
 | Ultrasonik kiri | TRIG = 32, ECHO = 33 |  |
 | Ultrasonik kanan | TRIG = 34, ECHO = 35 |  |
-| Proximity | 36 | INPUT\_PULLUP, lihat 5.5 |
+| Proximity | 3 | INPUT\_PULLUP, lihat 5.5 |
 | Relay gripper (aktif LOW) | 40 | Saat boot harus HIGH (relay OFF) |
 | Buzzer (opsional) | 42 | Indikator state/fault |
 
